@@ -60,10 +60,6 @@ Route::Route(Location* org, Location* dest, string trans, float tim, float cst, 
 	time = tim;
 	cost = cst;
 	note = notee;
-
-	if(trans.compare("plane") == 0){
-		cost =  cst * MULTI;
-	}
 };
 
 
